@@ -1,0 +1,116 @@
+// standard setting and features for pages
+
+html {
+    font-size: 125%;
+    color: #1a315c;
+    font-family: 'Pacifico', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1a315c;
+}
+
+h1 {
+    font-size: 2.9rem;
+    line-height: 68px;
+    width: 600px;
+}
+
+h2 {
+    font-size: 2.15rem;
+    line-height: 58px;
+    letter-spacing: 2.7px;
+}
+
+h3 {
+    font-size: 2rem;
+    
+}
+
+h4 {
+    font: 1.75rem;
+    letter-spacing: 2.9px;
+}
+
+button {
+    font-size: 1.35rem;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 1.4px;
+}
+
+ul li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 29px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+}
+
+// .logo {
+//     font-size: 1.5rem;
+//     line-height: 24px;
+//     letter-spacing: 1.7px;
+//     background-color: #0cadc0;
+//     border-radius: 50%;
+// }
+
+.biggerH1 {
+    font-size: 3.4rem;
+    line-height: 64px;
+
+}
+
+.wrapper {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+i.fa-calendar-check,
+i.fa-users,
+i.fa-file,
+i.fa-phone {
+    visibility: visible;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 24px;
+    letter-spacing: 1.7px;
+    background-color: #0cadc0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 11px;
+}
+
+
+
+i.fa-copyright {
+    visibility: visible;
+}
