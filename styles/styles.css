@@ -240,13 +240,12 @@ nav {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 40px;
+  padding-top: 20px;
 }
-
-h4 {
+nav h4 {
   width: 60%;
 }
-
-ul {
+nav ul {
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,10 +301,15 @@ h4 {
 }
 
 button {
+  font-family: "Pacifico", cursive;
   font-size: 1.35rem;
   text-align: center;
   line-height: 32px;
   letter-spacing: 1.4px;
+  border: none;
+  background-color: #1a315c;
+  color: #fff;
+  padding: 10px 30px;
 }
 
 ul li {
@@ -351,6 +355,8 @@ i.fa-phone {
   height: 50px;
   text-align: center;
   padding-top: 11px;
+  margin-top: 8px;
+  margin-right: 20px;
 }
 
 i.fa-copyright {
@@ -359,6 +365,81 @@ i.fa-copyright {
 
 header.indexHeader {
   width: 100%;
+  height: 750px;
   background: center url(../assets/header-home.jpg);
   background-size: cover;
+  position: relative;
+}
+
+header.indexHeader img {
+  position: absolute;
+  left: 0px;
+  bottom: -225px;
+}
+
+.newTechniquesSection {
+  background: #ccedfb;
+}
+
+.newTechniquesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 250px 0 100px 0;
+}
+.newTechniquesContainer p {
+  width: 90%;
+  padding: 15px 0 35px 0;
+}
+.newTechniquesContainer img {
+  -webkit-box-shadow: -15px 15px #0cadc0;
+          box-shadow: -15px 15px #0cadc0;
+}
+
+.gallerySection {
+  background: #21404f;
+}
+
+.galleryContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+}
+.galleryContainer img {
+  width: calc(100% / 3 - 20px);
+}
+
+.galleryContainer img:nth-child(2) {
+  margin: 0 20px;
+}
+
+.menuSection {
+  background: #ccedfb;
+  padding: 100px 0;
+}
+
+.menuContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.menuContainer .menuIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  padding: 25px 0;
+}
+.menuContainer .menuIcon p {
+  padding: 10px 0;
+}
+
+.banner {
+  background: center url(../assets/banner.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
 }
