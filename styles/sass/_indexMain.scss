@@ -16,7 +16,7 @@
     }
 
     img {
-        box-shadow: -15px 15px #0cadc0;
+        box-shadow: -20px 20px #0cadc0;
     }
 }
 
@@ -62,7 +62,57 @@
 
 // Discover our products and services area
 
-.discoverUsSection
+.discoverUsSection {
+    background: $primary;
+    position: relative;
+}
+
+.discoverUsContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    .leftImage, .rightImage {
+        position: absolute;
+    }
+    .onlineMarket {
+        padding-top: 50px;
+        padding-bottom: 520px;
+        color: #fff;
+        width: calc(50% - 121px);
+        margin-left: 121px;
+        p {
+            padding: 10px 0;
+        }
+        
+    }
+    .newLocation {
+        padding-top: 520px;
+        padding-bottom: 50px;
+        color: #fff;
+        text-align: right;
+        width: calc(50% - 121px);
+        margin-right: 121px;
+        p {
+            padding: 10px 0;
+        }
+    }
+
+    button {
+        color: $text;
+        background: $secondary;
+    }
+}
+
+.leftImage {
+    left: 0;
+    top: -32px;
+    box-shadow: 20px 20px 0 -5px #0cadc0;
+}
+
+.rightImage {
+    right: 0;
+    bottom: -40px;
+    box-shadow: -20px 20px 0 -5px #0cadc0;
+}
 
 // banner area with the rope image background
 
@@ -73,6 +123,20 @@
     width: 100%;
     height: 600px;
 }
+
+// the search by still area
+
+.byStylesSection {
+    background: $secondary;
+    padding: 150px 0;
+    text-align: center;
+    p {
+        padding: 20px 0 60px 0;
+    }
+}
+
+
+
 
 
 

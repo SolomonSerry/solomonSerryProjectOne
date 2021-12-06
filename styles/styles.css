@@ -253,6 +253,9 @@ nav ul {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+nav li:hover {
+  border-bottom: 2px solid #0cadc0;
+}
 
 html {
   font-size: 125%;
@@ -392,8 +395,8 @@ header.indexHeader img {
   padding: 15px 0 35px 0;
 }
 .newTechniquesContainer img {
-  -webkit-box-shadow: -15px 15px #0cadc0;
-          box-shadow: -15px 15px #0cadc0;
+  -webkit-box-shadow: -20px 20px #0cadc0;
+          box-shadow: -20px 20px #0cadc0;
 }
 
 .gallerySection {
@@ -437,9 +440,81 @@ header.indexHeader img {
   padding: 10px 0;
 }
 
+.discoverUsSection {
+  background: #21404f;
+  position: relative;
+}
+
+.discoverUsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.discoverUsContainer .leftImage, .discoverUsContainer .rightImage {
+  position: absolute;
+}
+.discoverUsContainer .onlineMarket {
+  padding-top: 50px;
+  padding-bottom: 520px;
+  color: #fff;
+  width: calc(50% - 121px);
+  margin-left: 121px;
+}
+.discoverUsContainer .onlineMarket p {
+  padding: 10px 0;
+}
+.discoverUsContainer .newLocation {
+  padding-top: 520px;
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: right;
+  width: calc(50% - 121px);
+  margin-right: 121px;
+}
+.discoverUsContainer .newLocation p {
+  padding: 10px 0;
+}
+.discoverUsContainer button {
+  color: #1a315c;
+  background: #ccedfb;
+}
+
+.leftImage {
+  left: 0;
+  top: -32px;
+  -webkit-box-shadow: 20px 20px 0 -5px #0cadc0;
+          box-shadow: 20px 20px 0 -5px #0cadc0;
+}
+
+.rightImage {
+  right: 0;
+  bottom: -40px;
+  -webkit-box-shadow: -20px 20px 0 -5px #0cadc0;
+          box-shadow: -20px 20px 0 -5px #0cadc0;
+}
+
 .banner {
   background: center url(../assets/banner.jpg);
   background-size: cover;
   width: 100%;
   height: 600px;
+}
+
+.byStylesSection {
+  background: #ccedfb;
+  padding: 150px 0;
+  text-align: center;
+}
+.byStylesSection p {
+  padding: 20px 0 60px 0;
+}
+
+footer {
+  background: #161515;
+  color: #fff;
+  text-align: center;
 }

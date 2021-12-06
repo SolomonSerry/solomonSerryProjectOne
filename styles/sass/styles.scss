@@ -5,12 +5,10 @@ $text: #1a315c;
 $baseFont: 'Pacifico', cursive;
 $secondFont: 'Lato', sans-serif;
 
-@mixin position($type, $left, $bottom, $right, $top) {
+@mixin position($type, $left, $bottom) {
     position: $type;
     left: $left;
     bottom: $bottom;
-    right:$right;
-    top:$top;
 }
 
 @import "normalize";
@@ -18,6 +16,7 @@ $secondFont: 'Lato', sans-serif;
 @import "standards";
 @import "indexHeader";
 @import "indexMain";
+@import "footer";
 
 
 
