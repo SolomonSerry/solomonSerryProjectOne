@@ -1,0 +1,10 @@
+header.blogHeader {
+    background: url(../assets/blog-header.jpg);
+    background-size: cover;
+    width: 100vw;
+    position: relative; 
+    .biggerH1 {
+        padding: 200px 0 400px 0;
+    }  
+}
+

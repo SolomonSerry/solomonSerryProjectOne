@@ -239,8 +239,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 40px;
-  padding-top: 20px;
+  height: 29px;
 }
 nav h4 {
   width: 60%;
@@ -373,6 +372,9 @@ header.indexHeader {
   background-size: cover;
   position: relative;
 }
+header.indexHeader h1 {
+  padding-top: 40px;
+}
 
 header.indexHeader img {
   position: absolute;
@@ -410,7 +412,7 @@ header.indexHeader img {
   padding: 100px 0;
 }
 .galleryContainer img {
-  width: calc(100% / 3 - 20px);
+  width: calc(100% / 3 - 40px);
 }
 
 .galleryContainer img:nth-child(2) {
@@ -517,4 +519,14 @@ footer {
   background: #161515;
   color: #fff;
   text-align: center;
+}
+
+header.blogHeader {
+  background: url(../assets/blog-header.jpg);
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+}
+header.blogHeader .biggerH1 {
+  padding: 200px 0 400px 0;
 }

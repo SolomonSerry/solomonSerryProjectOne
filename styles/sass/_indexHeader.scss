@@ -4,6 +4,9 @@ header.indexHeader {
     background: center url(../assets/header-home.jpg);
     background-size: cover;
     position: relative;
+    h1{
+        padding-top: 40px;
+    }
 }
 
 header.indexHeader img {
