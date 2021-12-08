@@ -12,12 +12,14 @@ $secondFont: 'Lato', sans-serif;
 }
 
 @import "normalize";
-@import "nav";
 @import "standards";
+@import "nav";
+@import "footer";
 @import "indexHeader";
 @import "indexMain";
-@import "footer";
 @import "blogHeader";
+@import "blogMain";
+@import "contactPage";
 
 
 
