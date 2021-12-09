@@ -16,10 +16,10 @@
             <nav>
                 <h4>Textilee</h4>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <h1 class="biggerH1">Blog</h1>
@@ -69,32 +69,34 @@
         <div class="commentSection wrapper">
             <div class="commentContainer">
                 <h3>Comments:</h3>
-                <div class="flexContainer">
-                    <img src="../assets/comment-1.jpg" alt="person that posted comment">
-                    <div>
-                        <p>Tuesday December 9th, 2019 by Louise</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi, officia harum quia voluptatem quis et non atque, corrupti nulla vero quibusdam quae tenetur illum?</p>
+                    <div class="flexContainer">
+                        <img src="../assets/comment-1.jpg" alt="person that posted comment">
+                        <div>
+                            <p>Tuesday December 9th, 2019 by Louise</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi, officia harum quia voluptatem quis et non atque, corrupti nulla vero quibusdam quae tenetur illum?</p>
+                        </div>
                     </div>
-                </div>
             
-                <div class="flexContainer">
-                    <img src="../assets/comment-2.jpg" alt="person that posted comment">
-                    <div>
-                        <p>Wednesday December 10th, 2019 by JP</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque consequatur voluptas ab neque aliquid perferendis!</p>
-                    </div>    
-                </div>
+                    <div class="flexContainer">
+                        <img src="../assets/comment-2.jpg" alt="person that posted comment">
+                        <div>
+                            <p>Wednesday December 10th, 2019 by JP</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque consequatur voluptas ab neque aliquid perferendis!</p>
+                        </div>    
+                    </div>
                 
                 <form action="">
-                    <label for="userName"></label>
-                    <input type="text" id="userName" placeholder="Name">
+                    <div class="formContainer">
+                        <label for="userName"></label>
+                        <input type="text" id="userName" placeholder="Name">
                     
-                    <label for="userEmail"></label>
-                    <input type="email" id="userEmail" placeholder="Email address">
+                        <label for="userEmail"></label>
+                        <input type="email" id="userEmail" placeholder="Email address">
+                    </div>
                     
                     <fieldset>
                         <label for="Comments"></label>
-                        <textarea name="CommentArea" id="Comments" cols="30" rows="10"></textarea>
+                        <textarea name="CommentArea" id="Comments" cols="30" rows="10" placeholder="Comment"></textarea>
                     </fieldset>
                     
                     <button type="submit">post comment</button>

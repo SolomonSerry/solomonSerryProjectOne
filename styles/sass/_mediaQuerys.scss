@@ -1,0 +1,129 @@
+// this is the media querys page 
+
+// media querys for the index page
+@media (max-width: 1500px) {
+    .indexHeader img {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1215px) {
+    .discoverUsContainer {
+        flex-direction: column;
+        .leftImage, .rightImage {
+            position: relative;
+        }
+        
+        .onlineMarket {
+            width: 100%;
+            margin: 0;
+            padding-top: 50px;
+            text-align: center;
+            padding-bottom: 0;
+        }
+        
+        .newLocation {
+            width: 100%;
+            padding-top: 120px;
+            margin: 0;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    header.indexHeader img {
+        width: 550px;
+        @include position(absolute, 0, -125px)
+    }
+
+    .indexHeader h1 {
+        width: 400px;
+    }
+
+    .newTechniquesContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p {
+            width: 100%;
+        }
+        button {
+            margin-bottom: 50px;
+        }
+    }
+
+    .menuContainer {
+        flex-direction: column;
+        .menuIcon {
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            .logo {
+                text-align: center;
+            }
+        }
+    }
+
+    i.fa-bars {
+        visibility: visible;
+        color: $textColor2;
+        font-size: 30px;
+    }
+
+    nav {
+        justify-content: space-between;
+        ul {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 730px) {
+    
+    
+    header.indexHeader  {
+        width: 100vw;
+        height: 700px;
+        img {
+            width: 450px;
+        }
+    }
+
+    .galleryContainer {
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 80%;
+            margin: 65px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        header.indexHeader img {
+            width: 300px;
+            @include position(absolute, 0, 0)
+        }
+
+        .indexHeader h1 {
+            width: 200px;
+        }
+
+        .newTechniquesContainer {
+            padding-top: 55px;
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+
+        .galleryContainer {
+            padding: 0;
+        }
+    }
+}
+// media querys for index ends here
+
+// mediia querys for blog area will start here 
+
+

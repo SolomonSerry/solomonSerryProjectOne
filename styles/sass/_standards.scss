@@ -11,7 +11,8 @@ h2,
 h3,
 h4,
 ul,
-p {
+p, 
+fieldset {
     padding: 0;
     margin: 0;
 }
@@ -60,7 +61,14 @@ button {
     background-color: $textColor2;
     color: $textColor;
     padding: 10px 30px;
+    transition: font-size 0.6s ease ;
 }
+
+
+// all buttons will slightly change size when hovered
+button:hover, button:focus {
+    font-size: 1.4rem;
+} 
 
 ul li {
     font-family: $secondFont;
@@ -78,6 +86,11 @@ p {
     line-height: 28px;
     letter-spacing: 2px;
 
+}
+
+
+fieldset {
+    border: none;
 }
 
 
@@ -113,6 +126,10 @@ i.fa-phone {
     padding-top: 11px;
     margin-top: 8px;
     margin-right: 20px;
+}
+
+i.fa-bars {
+    visibility: hidden;
 }
 
 
