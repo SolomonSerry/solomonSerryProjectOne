@@ -16,7 +16,7 @@
     }
 
     img {
-        box-shadow: -20px 20px #0cadc0;
+        box-shadow: -20px 20px $accentColor;
     }
 }
 
@@ -76,9 +76,12 @@
     .onlineMarket {
         padding-top: 50px;
         padding-bottom: 520px;
-        color: #fff;
+        color: $textColor;
         width: calc(50% - 121px);
         margin-left: 121px;
+        h3 {
+            color: $textColor;
+        }
         p {
             padding: 10px 0;
         }
@@ -87,17 +90,20 @@
     .newLocation {
         padding-top: 520px;
         padding-bottom: 50px;
-        color: #fff;
+        color: $textColor;
         text-align: right;
         width: calc(50% - 121px);
         margin-right: 121px;
+        h3 {
+            color: $textColor;
+        }
         p {
             padding: 10px 0;
         }
     }
 
     button {
-        color: $text;
+        color: $blackTwo;
         background: $secondary;
     }
 }
@@ -105,13 +111,13 @@
 .leftImage {
     left: 0;
     top: -32px;
-    box-shadow: 20px 20px 0 -5px #0cadc0;
+    box-shadow: 20px 20px 0 -5px $accentColor;
 }
 
 .rightImage {
     right: 0;
     bottom: -40px;
-    box-shadow: -20px 20px 0 -5px #0cadc0;
+    box-shadow: -20px 20px 0 -5px $accentColor;
 }
 
 // banner area with the rope image background

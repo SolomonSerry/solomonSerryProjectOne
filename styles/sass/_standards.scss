@@ -2,7 +2,7 @@
 
 html {
     font-size: 125%;
-    color: $text;
+    color: $blackOne;
     font-family: $baseFont;
 }
 
@@ -22,23 +22,26 @@ li {
 
 a {
     text-decoration: none;
-    color: #1a315c;
+    color: $blackTwo;
 }
 
 h1 {
     font-size: 2.9rem;
     line-height: 68px;
     width: 600px;
+    color: $textColor2;
 }
 
 h2 {
     font-size: 2.15rem;
     line-height: 58px;
     letter-spacing: 2.7px;
+    color: $textColor2;
 }
 
 h3 {
     font-size: 2rem;
+    color: $textColor2;
     
 }
 
@@ -54,8 +57,8 @@ button {
     line-height: 32px;
     letter-spacing: 1.4px;
     border: none;
-    background-color: $text;
-    color: #fff;
+    background-color: $textColor2;
+    color: $textColor;
     padding: 10px 30px;
 }
 
@@ -98,11 +101,11 @@ i.fa-users,
 i.fa-file,
 i.fa-phone {
     visibility: visible;
-    color: #fff;
+    color: $textColor;
     font-size: 1.5rem;
     line-height: 24px;
     letter-spacing: 1.7px;
-    background-color: #0cadc0;
+    background-color: $accentColor;
     border-radius: 50%;
     width: 50px;
     height: 50px;

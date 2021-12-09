@@ -1,39 +1,91 @@
-.bGroundColor {
+// this section contain the two sepetate boxes the really bbig one and the smaller one
+
+.newCollectionSection {
     background: $secondary;
-    height: 1200px;
+    .newCollectionContainer {
+        display: flex;
+        justify-content: space-between;
+        color: $textColor;
+        div {
+            background: $primary;
+            width: 60%;
+            padding: 0 0 60px 0;
+            img {
+                width: calc(100% - 10px);
+                box-shadow: 20px 20px 0 -2px $accentColor;
+                position: relative;
+                top: -120px;
+            }
+           
+            p {
+                padding-bottom: 25px;
+            }
+        }
+        aside {
+            background: $primary;
+            height: 790px;
+            width: 20%;
+            box-shadow: -20px 0 0 0 $primary;
+            margin-top: 120px;
+            img {
+                width: 100%;
+                position: relative;
+                top: -15px;
+            }
+            h4 {
+                padding-bottom: 5px;
+            }
+            p {
+                padding-bottom: 50px;
+            }
+        }
+    }
 }
 
-
-
-
-
-
-
-aside { 
-position: absolute;
-top: 110px;
-right: 0;
-width: 368px;
-box-shadow: 0px 30px 0 15px $primary;
-color: #fff;
+.collectionArticle p:nth-of-type(1) {
+    color: $secondary;
 }
 
- aside img {
-    box-shadow: 0px 340px 0 15px $primary;
-}
-
-aside h4 {
-    padding-top: 15px;
-}
-
-aside p{
-    padding-bottom: 15px;
+.collectionArticle {
+    border-bottom: 8px solid $accentColor;
+    border-right: 8px solid $accentColor;
 }
 
 .asideList li {
-    list-style: initial;
     text-align: left;
-    margin-left: 30px;
     font-weight: 400;
-} 
+    list-style: inside;
+}
 
+// this is the comment sections with the posts and forms
+
+.bGContainer {
+    background: $secondary;
+}
+
+
+.commentContainer {
+    width: 60%;
+    padding-top: 50px;
+    h3 {
+        color: $blackTwo;
+    }
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    img {
+        width: 10%;
+        height: 60px;
+        
+    }
+    div {
+        width: 85%;
+    }
+}
+
+.flexContainer p:nth-of-type(1) {
+    color: $textColor2;
+}

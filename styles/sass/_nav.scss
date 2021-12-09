@@ -11,10 +11,13 @@ nav {
         width: 40%;
         display: flex;
         justify-content: space-around;
+        li {
+            color: $textColor2;
+        }
             
     }
     li:hover {
-        border-bottom: 2px solid #0cadc0;
+        border-bottom: 2px solid $accentColor;
     }
      
 } 
