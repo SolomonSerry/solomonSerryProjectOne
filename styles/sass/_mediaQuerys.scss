@@ -126,4 +126,122 @@
 
 // mediia querys for blog area will start here 
 
+@media (max-width: 1346px) {
+    .newCollectionSection {
+        .newCollectionContainer {
+            flex-direction: column;
+            align-items: center;
+            aside {
+                width: 35%;
+                height: 950px;
+            }
+    
+        }
+    }
+
+    .formContainer {
+        flex-direction: column;
+    }
+
+    .commentContainer form input[type=text] {
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    
+    .commentContainer form input[type=email] {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 766px) {
+    .newCollectionSection .newCollectionContainer div {
+        width: 80%;
+    }
+
+    .newCollectionSection .newCollectionContainer aside {
+        width: 50%;
+    }
+
+    .commentContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .newCollectionSection .newCollectionContainer div {
+        width: 90%;
+    }
+
+    .newCollectionSection .newCollectionContainer aside {
+        width: 80%;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .flexContainer p:nth-of-type(1) {
+        margin-bottom: 10px;
+    }
+}
+
+// media query for blog are ends here 
+
+// media query for contact page starts here
+
+@media (max-width: 1460px) {
+    .contactInfo {
+        margin-left: 25%;
+        margin-top: 500px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .contactSection form {
+        width: 90%;
+        position: relative;
+        top: -330px;
+        left: 47px;
+    }
+
+    .contactInfo {
+        margin-top: -170px;
+    }
+}
+
+@media(max-width: 762px) {
+    .contactSection .formTop {
+        flex-direction: column;
+    }
+
+    .contactSection input[type=email] {
+        width: 100%;
+    }
+    
+    .contactSection input[type=text] {
+        width: 100%;
+    }
+
+    .contactSection form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 482px) {
+    .contactSection form {
+        width: 75%;
+    }
+
+    .contactHeader h1 {
+        width: 300px;
+        line-height: 100px;
+    }
+}
 
