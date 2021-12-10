@@ -72,12 +72,27 @@
         visibility: visible;
         color: $textColor2;
         font-size: 30px;
+       
     }
 
     nav {
         justify-content: space-between;
+        // this is for slide out menu
         ul {
-            display: none;
+            position: absolute;
+            right: -202px;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 400px;
+            align-items: flex-start;
+            background: rgba(50, 50, 120, 0.5);
+            transition: right 0.6s ease;
+            padding-left: 5px;
+            padding-top: 20px;
+            
+            
         }
     }
 }
@@ -102,6 +117,10 @@
             width: 80%;
             margin: 65px;
         }
+    }
+
+    nav ul {
+        width: 100px;
     }
 
     @media (max-width: 575px) {
