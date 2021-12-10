@@ -79,7 +79,7 @@
         justify-content: space-between;
         // this is for slide out menu
         ul {
-            position: absolute;
+            position: fixed;
             right: -202px;
             top: 0;
             display: flex;
@@ -91,6 +91,7 @@
             transition: right 0.6s ease;
             padding-left: 5px;
             padding-top: 20px;
+            visibility: hidden;
             
             
         }
