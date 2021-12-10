@@ -571,6 +571,7 @@ header.blogHeader {
 }
 header.blogHeader .biggerH1 {
   padding: 200px 0 400px 0;
+  width: 100%;
 }
 
 .newCollectionSection {
