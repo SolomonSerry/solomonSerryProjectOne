@@ -436,6 +436,9 @@ header.indexHeader img {
   -webkit-box-shadow: -20px 20px #0cadc0;
           box-shadow: -20px 20px #0cadc0;
 }
+.newTechniquesContainer button a {
+  color: white;
+}
 
 .gallerySection {
   background: #21404f;
@@ -555,6 +558,9 @@ header.indexHeader img {
 }
 .byStylesSection p {
   padding: 20px 0 60px 0;
+}
+.byStylesSection button a {
+  color: white;
 }
 
 header.blogHeader {

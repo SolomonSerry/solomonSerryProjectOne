@@ -1,3 +1,6 @@
+// since the contact page is alot shorter then the other pages the css content for me main part of this page will all be here
+
+// header area 
 .contactHeader {
     background: url(../assets/contact-header.jpg);
     background-size: cover;
@@ -9,6 +12,8 @@
     padding: 50px 0 350px 0;
 }
 
+
+// this area is the bottom half of page 
 .contactSection {
     background: $secondary;
     width: 100%;
@@ -17,6 +22,8 @@
   
 
 }
+
+// starting of form manipulation
 
 .contactSection form {
     position: absolute;
@@ -86,6 +93,7 @@
   
 }
 
+// this is the css for the socail media tags 
 .contactInfo {
    
     text-align: left;
