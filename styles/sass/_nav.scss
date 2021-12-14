@@ -1,7 +1,9 @@
+// area for the navagation bar
 nav {
     display: flex;
     height: 70px;
     padding: 20px 0;
+  
     h4 {
         width: 60%;
 
@@ -22,7 +24,13 @@ nav {
         border-bottom: 2px solid $accentColor;
     }
      
-} 
+}
 
-// area for the navagation bar
+// hover to make nav bar slideout on media query
+
+// nav:hover ul {
+//     right: 0;
+//     visibility: visible;
+// }
+
 
