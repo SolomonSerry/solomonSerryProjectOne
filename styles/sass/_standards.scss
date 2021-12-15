@@ -6,6 +6,10 @@ html {
     font-family: $baseFont;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
