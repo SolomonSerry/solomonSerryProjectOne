@@ -104,11 +104,14 @@
                 max-width: 200px;
                 background: rgba(50, 50, 150, 0.9);
                 transition: background 0.6s ease;
-            
+                
             } 
                 a {
                     color: $textColor;
-                    }
+                    text-align: center;
+                    padding: 2px 50px;
+                    
+                }
         }
         
         // this is the active class that will have the menu slide out
